@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
-    background-image: url(/img/hatter.png);
+
+.xbox360body{
+    background-image: url(img/háttér.jpg);
+   
 }
-#xboxh1{
+#xbox360h1{
     text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -11,23 +13,81 @@ body{
     border: solid;
 }
 .kep{
-    width: 320px;
-    height: 320px;
+    width: 200%;
+    height: 240%;
     margin: auto;
     text-align: center;
 }
-.tablazat{
-    text-align: center;
-    background-color:white;
+.kep2{
     width: 100%;
-    border: solid;
+    height: 120%;
+    margin: auto;
+    text-align: center;
+    
 }
-#h2{
+
+
+
+
+    
+.xbox360p{
+   color: black;
+  
+}
+
+.xbox360button{
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+}
+
+.xbox360game {
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: .4rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.xbox360div{
+    width: 56.5%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.game:hover {
+    transition: .5s ease;
+    transform: scale(1.08);
+}
+
+
+#xbox360h2{
     color: red;
     text-align: left;
     font-size: 50px;
-    background-color: yellow;
+    background-color: white;
     width: 11.5%;
 }
 
+.xbox360container{
 
+    height: max-content
+;
+    width: max-content;
+    
+    float: left;
+}
+ 
